@@ -9,16 +9,16 @@ export default function Navbar() {
         <div className="links">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Payment</a>
+              <a href="/payment">Payment</a>
             </li>
             <li>
-              <a href="#">Solution</a>
+              <a href="/solution">Solution</a>
             </li>
             <li>
-              <a href="#">About us</a>
+              <a href="/about">About us</a>
             </li>
           </ul>
         </div>
