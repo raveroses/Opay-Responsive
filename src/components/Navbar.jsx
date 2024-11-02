@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, Link } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Navbar() {
@@ -20,16 +20,16 @@ export default function Navbar() {
         <div className="links">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/payment">Payment</a>
+              <Link to="/payment">Payment</Link>
             </li>
             <li>
-              <a href="/solution">Solution</a>
+              <Link to="/solution">Solution</Link>
             </li>
             <li>
-              <a href="/about">About us</a>
+              <Link to="/about">About us</Link>
             </li>
           </ul>
         </div>
