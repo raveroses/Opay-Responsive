@@ -11,6 +11,9 @@ html {
   font-family: "Roboto", sans-serif;
   height: 100%;
 }
+.nav {
+  display: none;
+}
 .navs {
   display: flex;
   justify-content: space-between;
@@ -20,7 +23,9 @@ html {
   background-color: transparent;
   box-shadow: 1px 1px 1px 1px lightgreen;
 }
-
+.navs .burger {
+  display: none;
+}
 .logo img {
   width: 190px;
 }
@@ -498,7 +503,7 @@ footer {
 .hero {
   position: relative;
 }
-.hero img {
+.reel {
   width: 100%;
 }
 .innovative {
@@ -599,11 +604,12 @@ footer {
 }
 
 .white-content {
-  font-size: 20px;
+  /* font-size: 20px; */
   margin-top: 90px;
 }
-.white-content p {
+.white-content .pp p {
   margin-top: 40px;
+  font-size: 20px;
 }
 
 .opay-img img {
@@ -638,6 +644,9 @@ footer {
   width: 400px;
 }
 
+.puzzle-image2 {
+  display: none;
+}
 .puzzle-content h5 {
   text-align: left;
   margin-bottom: 20px;
@@ -650,4 +659,537 @@ footer {
 }
 .puzzle-image img {
   width: 500px;
+}
+
+.hand {
+  display: none;
+}
+.lincences {
+  display: none;
+}
+.hide-img {
+  display: none;
+}
+
+.des3 {
+  display: none;
+}
+
+.meat {
+  margin-left: 250px;
+  margin-top: 70px;
+}
+.opay2-img {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .navs {
+    display: none;
+  }
+  .nav {
+    max-width: 100%;
+    position: relative;
+    justify-content: flex-start;
+    padding: 25px 10px;
+    gap: 170px;
+    width: 100%;
+    display: flex;
+    visibility: visible;
+  }
+
+  .nav .burger {
+    display: block;
+  }
+
+  .close img {
+    width: 20px;
+  }
+  .logos img {
+    width: 144px;
+  }
+
+  .nav .link ul {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    background-color: green;
+    width: 100%;
+    padding: 8px 30px 50px 13px;
+    color: white;
+    padding: 20px 20px 50px 20px;
+    margin: 0;
+    list-style: none;
+    z-index: 5;
+
+    /* display: none; */
+  }
+  .nav .link ul li {
+    float: none;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .nav .link ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+  }
+  .hand {
+    display: block;
+  }
+  .hand img {
+    width: 421px;
+  }
+  .hands {
+    display: none;
+  }
+  .body-flex {
+    padding: 20px 20px;
+    flex-direction: column;
+  }
+  .first {
+    padding: 0px 0px;
+  }
+  .first h2 {
+    font-size: 33px;
+  }
+  .first p {
+    font-size: 19px;
+    padding-right: 0px;
+  }
+  .contact {
+    width: 221px;
+    padding: 20px 0px;
+    font-size: 21px;
+    margin-top: 7px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .real-license {
+    margin-top: 20px;
+  }
+
+  .lincence {
+    display: none;
+  }
+
+  .lincences {
+    display: block;
+  }
+  .lincences .real-license .li {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .img img {
+    width: 16px;
+  }
+  .insure {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+  }
+  .insure .li {
+    font-size: 11px;
+    font-weight: 400;
+    color: darkblue;
+  }
+  .im img {
+    width: 27px;
+    margin-top: 0px;
+    margin-left: 4px;
+  }
+  .grid {
+    padding: 37px 0px;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+
+  .grid .first img {
+    width: 442px;
+  }
+  .grid .first h5 {
+    font-size: 21px;
+    margin-top: 5px;
+    padding: 0px 0px 0px 20px;
+  }
+  .grid .first p {
+    font-size: 15px;
+    margin: 8px 0px;
+    padding: 0px 0px 0px 20px;
+  }
+  .sponsor {
+    padding: 32px 0px;
+  }
+  .sponsor h2 {
+    font-size: 26px;
+    padding: 0px 1px;
+  }
+  .sponsors-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    gap: 14px;
+    width: 100%;
+    padding: 0px 16px;
+  }
+  .sponsors-images img {
+    width: 100px;
+  }
+  .testimony {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .name {
+    gap: 276px;
+  }
+  .box {
+    width: 400px;
+    margin-bottom: 15px;
+  }
+  .name h5 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .ikon {
+    font-size: 20px;
+  }
+  .box p {
+    font-size: 15px;
+  }
+  .cont {
+    padding: 41px;
+    text-align: center;
+  }
+  .contact-opay {
+    width: 311px;
+    padding: 22px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .content {
+    font-size: 28px;
+  }
+  footer {
+    padding: 35px 35px;
+    gap: 0px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+  }
+  .hide-img img {
+    width: 140px;
+  }
+  .content-flex {
+    display: none;
+  }
+  .hide-img {
+    display: block;
+  }
+  .footer-image .bb {
+    display: none;
+  }
+  .footer-flex {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 0px;
+    flex-direction: column;
+  }
+  .foot-first p {
+    font-size: 15px;
+    width: 100%;
+    padding-top: 36px;
+  }
+  .foot-first p img {
+    width: 22px;
+  }
+  .foot-second a {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .social {
+    font-size: 24px;
+  }
+
+  .payment-main h2 {
+    font-size: 42px;
+    padding: 28px 25px;
+    text-align: left;
+    font-weight: 700;
+  }
+  .hr {
+    display: none;
+  }
+
+  .des3 {
+    display: block;
+  }
+  .des2 {
+    display: none;
+  }
+  .des3 img {
+    width: 348px;
+    margin: auto;
+    max-width: 100%;
+  }
+  .des {
+    padding: 30px 30px;
+    gap: 0px;
+    flex-direction: column;
+  }
+  .des1 h4 {
+    font-size: 25px;
+  }
+  .des1 p {
+    font-size: 15px;
+  }
+  .des1 ul li {
+    font-size: 18px;
+  }
+  .apply-pos {
+    background-color: #07c56e;
+    width: 317px;
+    font-size: 20px;
+    padding: 13px;
+  }
+  .picture {
+    padding: 0px 0px;
+  }
+  .picture h5 {
+    font-size: 20px;
+  }
+  .pics-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  /* .image img {
+    width: 350px;
+    margin: 0px 10px;
+    max-width: 100%;
+  } */
+  .image img {
+    width: 380px;
+    margin: 0px 10px;
+    max-width: 100%;
+  }
+  .absolute p {
+    font-size: 18px;
+  }
+  .absolute h5 {
+    font-size: 25px;
+  }
+  .under {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .under p {
+    font-size: 18px;
+  }
+  .under a {
+    font-size: 25px;
+    text-align: center;
+  }
+  .payment-footer {
+    padding: 0px;
+  }
+
+  .payment-footer img {
+    width: 375px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 100%;
+  }
+  .box-1 img {
+    width: 50px;
+  }
+  .box-1 p {
+    margin-top: 9px;
+    font-size: 12px;
+  }
+  .box-1 {
+    width: 180px;
+    padding: 11px 15px;
+  }
+  .last p {
+    text-align: left;
+    font-size: 15px;
+  }
+  .payment-footer h5 {
+    font-size: 25px;
+    padding: 0px 0px;
+    text-align: center;
+  }
+
+  .oops {
+    margin-left: 60px;
+  }
+  .reel {
+    max-width: 100%;
+    height: 376px;
+  }
+
+  .innovative {
+    top: 35px;
+    padding: 0px 10px;
+    text-align: left;
+  }
+
+  .innovative h5 {
+    font-size: 35px;
+    padding: 0px 0px;
+  }
+  .innovative p {
+    font-size: 16px;
+  }
+  .grid-image {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    gap: 0px;
+  }
+  /* .gridy-img img {
+    width: 200px;
+  } */
+  .gridy-img img {
+    width: 175px;
+  }
+  .main-page {
+    grid-template-columns: 1fr;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    margin: 373px 0px 0px 0px;
+    gap: 0px;
+    max-width: 100%;
+    padding-left: 30px;
+  }
+  .item {
+    width: auto;
+    margin-bottom: 49px;
+  }
+  .item img {
+    width: 66px;
+    padding-bottom: 20px;
+  }
+  .item p {
+    font-size: 16px;
+    padding-right: 92px;
+  }
+  .item h5 {
+    font-size: 26px;
+    padding-bottom: 20px;
+  }
+  .meat {
+    width: 313px;
+    padding: 19px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+
+  .absolute-content {
+    top: 30px;
+    padding: 10px 6px;
+    margin-left: 8px;
+  }
+  .absolute-content h5 {
+    font-size: 25px;
+  }
+  .white-board {
+    flex-direction: column;
+    padding: 0px;
+    gap: 0px;
+    width: 100%;
+    background: none;
+  }
+
+  .white-content {
+    font-size: 20px;
+    margin-top: 14px;
+  }
+  .opay-img {
+    display: none;
+  }
+  .opay2-img {
+    display: block;
+    padding: 0px 30px;
+  }
+  .opay2-img img {
+    width: 386px;
+    height: 262px;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+  }
+  .company {
+    background-color: whitesmoke;
+    padding-top: 1000px;
+  }
+  .puzzle {
+    padding: 0px 0px;
+  }
+  .puzzle-one {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    flex-direction: column;
+  }
+
+  .white-content .pp {
+    margin-top: 0px;
+    background-color: white;
+    margin-top: -121px;
+    padding-top: 208px;
+    max-width: 100%;
+  }
+  .white-content .pp p {
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 28px 35px;
+  }
+  .puzzle-image {
+    display: none;
+  }
+  .puzzle-image2 {
+    display: block;
+  }
+  .puzzle-image2 img {
+    width: 450px;
+    max-width: 100%;
+  }
+  .company h5 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+  .display {
+    display: none;
+  }
+  .puzzle-content p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
 }

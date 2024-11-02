@@ -7,24 +7,30 @@ export default function About() {
           <h5>About us</h5>
           <div className="white-board">
             <div className="white-content">
-              <p>
-                OPay Digital Services Limited is a leading payment and financial
-                service platform. Our mission is to drive financial inclusion by
-                providing efficient and convenient payment services, as we fully
-                believe that no one should be denied access to participate in
-                the world economy. As of now, we have offered accessible
-                financial solutions to over 30 million consumers and 1 million
-                businesses of all sizes.
-              </p>
-              <p>
-                We are a global company with footprints in many emerging markets
-                across Asia, Africa and Latin America. Our journey in Nigeria
-                started in 2018 and we are strictly licensed and regulated by
-                the Central Bank of Nigeria (CBN) and insured by the Nigeria
-                Deposit Insurance Corporation (NDIC). Today in Nigeria, OPay
-                Business has built the largest business network with our
-                merchants covering all 36 states.
-              </p>
+              <div className="opay2-img">
+                <img src="/images/opay.png" alt="opay" />
+              </div>
+              <div className="pp">
+                {" "}
+                <p>
+                  OPay Digital Services Limited is a leading payment and
+                  financial service platform. Our mission is to drive financial
+                  inclusion by providing efficient and convenient payment
+                  services, as we fully believe that no one should be denied
+                  access to participate in the world economy. As of now, we have
+                  offered accessible financial solutions to over 30 million
+                  consumers and 1 million businesses of all sizes.
+                </p>
+                <p>
+                  We are a global company with footprints in many emerging
+                  markets across Asia, Africa and Latin America. Our journey in
+                  Nigeria started in 2018 and we are strictly licensed and
+                  regulated by the Central Bank of Nigeria (CBN) and insured by
+                  the Nigeria Deposit Insurance Corporation (NDIC). Today in
+                  Nigeria, OPay Business has built the largest business network
+                  with our merchants covering all 36 states.
+                </p>
+              </div>
             </div>
             <div className="opay-img">
               <img src="/images/opay.png" alt="opay" />
@@ -34,10 +40,13 @@ export default function About() {
       </div>
 
       <div className="company">
-        <h5>Company Values</h5>
+        <h5 className="display">Company Values</h5>
 
         <div className="puzzle">
           <div className="puzzle-one">
+            <div className="puzzle-image2">
+              <img src="/images/knuckle.png" alt="tech" />
+            </div>
             <div className="puzzle-content">
               <h5>Entrepreneurship</h5>
 
@@ -53,6 +62,9 @@ export default function About() {
           </div>
 
           <div className="puzzle-one">
+            <div className="puzzle-image2">
+              <img src="/images/3stones.png" alt="tech" />
+            </div>
             <div className="puzzle-image">
               <img src="/images/3stones.png" alt="tech" />
             </div>
@@ -66,6 +78,9 @@ export default function About() {
             </div>
           </div>
           <div className="puzzle-one">
+            <div className="puzzle-image2">
+              <img src="/images/3stones.png" alt="tech" />
+            </div>
             <div className="puzzle-content">
               <h5> Innovation</h5>
 
@@ -80,6 +95,9 @@ export default function About() {
             </div>
           </div>
           <div className="puzzle-one">
+            <div className="puzzle-image2">
+              <img src="/images/communty.png" alt="tech" />
+            </div>
             <div className="puzzle-image">
               <img src="/images/communty.png" alt="tech" />
             </div>

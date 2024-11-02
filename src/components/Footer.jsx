@@ -5,7 +5,10 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer-image">
-        <img src="/images/footer-logo.png" alt="footer-logo" />
+        <img src="/images/footer-logo.png" alt="footer-logo" className="bb" />
+        <div className="hide-img">
+          <img src="/images/opay2.png" alt="logo" />
+        </div>
       </div>
       <div className="footer-second-flex">
         <div className="content-flex">

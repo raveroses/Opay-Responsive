@@ -5,10 +5,13 @@ export default function Payment() {
       <div className="payment-main">
         <h2>
           Upgrade Your Business with OPay <span>Omnichannel</span> Payments
-          <hr style={{ marginTop: "40px" }} />
+          <hr className="hr" style={{ marginTop: "40px" }} />
         </h2>
 
         <div className="des">
+          <div className="des3">
+            <img src="/images/pos.png" alt="pos" />
+          </div>
           <div className="des1">
             <h4> POS Terminals</h4>
             <p>Get POS terminals that meet your specific needs</p>
@@ -30,6 +33,9 @@ export default function Payment() {
           <div className="des2">
             <img src="/images/stand.png" alt="pos" />
           </div>
+          <div className="des3">
+            <img src="/images/stand.png" alt="pos" />
+          </div>
           <div className="des1">
             <h4>Transfer Number</h4>
             <p>Receive transfers in a safer & faster way</p>
@@ -42,6 +48,9 @@ export default function Payment() {
           </div>
         </div>
         <div className="des">
+          <div className="des3">
+            <img src="/images/phone.png" alt="pos" />
+          </div>
           <div className="des1">
             <h4> OPay Business App</h4>
             <p>Manage your business at your fingertips</p>
@@ -100,7 +109,7 @@ export default function Payment() {
           Let your customers choose their preferred payment methods and accept
           payments anytime, everywhere.
         </p>
-        <a href="#">Apply for OPay Online Gateway ></a>
+        <a href="#">Apply for OPay Online Gateway</a>
       </div>
       <div className="payment-footer">
         <h5>
@@ -145,7 +154,7 @@ export default function Payment() {
             customers.
           </p>
         </div>
-        <div className="contact-opay">
+        <div className="contact-opay oops">
           <FaPhoneAlt className="ikk" />
           Contact Opay
         </div>

@@ -3,7 +3,7 @@ export default function Solution() {
   return (
     <>
       <div className="hero">
-        <img src="/images/hero.png" alt="hero" />
+        <img src="/images/hero.png" alt="hero" className="reel" />
 
         <div className="innovative">
           <h5>
@@ -87,10 +87,7 @@ export default function Solution() {
 
             <p>....</p>
           </div>
-          <div
-            className="contact-opay"
-            style={{ marginLeft: "250px", marginTop: "70px" }}
-          >
+          <div className="contact-opay meat">
             <FaPhoneAlt className="ikk" />
             Contact Opay
           </div>

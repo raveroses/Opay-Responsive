@@ -5,13 +5,28 @@ export default function Body() {
   return (
     <>
       <div className="body-flex">
+        <div className="hand">
+          <img src="/images/hands.png" alt="hands" />
+        </div>
         <div className="first">
           <h2>Reliable, Fast & Safe Payments</h2>
-          <p>
-            Get omnichannel payment solutions to grow your business better!
-            <div className="contact">Contact us</div>
-          </p>
+          <p>Get omnichannel payment solutions to grow your business better!</p>
+          <div className="lincences">
+            <div className="real-license">
+              <div className="li">Licensed by CBN</div>
+              <div className="img">
+                <img src="/images/cbn.png" alt="cbn" />
+              </div>
+            </div>
 
+            <div className="insure">
+              <div className="li"> Insured by </div>
+              <div className="im">
+                <img src="/images/ndic.png" alt="ndic" />
+              </div>
+            </div>
+          </div>
+          <div className="contact">Contact us</div>
           <div className="lincence">
             <div className="real-license">
               <div className="li">Licensed by CBN</div>
