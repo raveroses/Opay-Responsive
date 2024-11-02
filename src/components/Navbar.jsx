@@ -1,5 +1,6 @@
-import { useState, Link } from "react";
+import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [show, setShow] = useState(false);
@@ -35,7 +36,6 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/*  */}
       <nav className="nav">
         <div className="logos">
           <img src="/images/logo.png" alt="logo" />
