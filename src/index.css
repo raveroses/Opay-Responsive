@@ -685,9 +685,19 @@ footer {
 
 @media (max-width: 480px) {
   .padding {
-    /* padding: 0px 10px; */
+    padding: 10px;
     overflow: hidden;
     max-width: 100%;
+  }
+  .pay {
+    padding: 10px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .padd {
+    overflow: hidden;
+    max-width: 100%;
+    padding: 10px;
   }
   .navs {
     display: none;
@@ -812,7 +822,9 @@ footer {
     grid-template-columns: 1fr;
     gap: 0px;
   }
-
+  .grid .first {
+    padding-bottom: 60px;
+  }
   .grid .first img {
     width: 442px;
   }
@@ -831,7 +843,7 @@ footer {
   }
   .sponsor h2 {
     font-size: 26px;
-    padding: 0px 1px;
+    padding: 30px 1px;
   }
   .sponsors-images {
     display: grid;
@@ -846,7 +858,7 @@ footer {
     width: 100px;
   }
   .testimony {
-    padding: 10px;
+    padding: 50px 10px;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -862,7 +874,7 @@ footer {
     width: 380px;
     /* margin-bottom: 15px; */
     padding: 10px 25px;
-    margin: 0px 15px 15px 15px;
+    margin: 0px 15px 25px 15px;
   }
   .name h5 {
     font-size: 20px;
@@ -945,6 +957,7 @@ footer {
 
   .des3 {
     display: block;
+    padding-top: 30px;
   }
   .des2 {
     display: none;
@@ -953,6 +966,7 @@ footer {
     width: 348px;
     margin: auto;
     max-width: 100%;
+    padding-top: 65px;
   }
   .des {
     padding: 30px 30px;
@@ -975,7 +989,7 @@ footer {
     padding: 13px;
   }
   .picture {
-    padding: 0px 0px;
+    padding: 100px 0px;
   }
   .picture h5 {
     font-size: 20px;
@@ -994,7 +1008,7 @@ footer {
   } */
   .image img {
     width: 380px;
-    margin: 0px 10px;
+    margin: 20px 0px;
     max-width: 100%;
   }
   .absolute p {
@@ -1015,7 +1029,7 @@ footer {
     text-align: center;
   }
   .payment-footer {
-    padding: 0px;
+    padding: 40px 0px 0px 0px;
   }
 
   .payment-footer img {
@@ -1046,7 +1060,7 @@ footer {
   }
   .last p {
     text-align: left;
-    font-size: 15px;
+    font-size: 18px;
   }
   .payment-footer h5 {
     font-size: 25px;

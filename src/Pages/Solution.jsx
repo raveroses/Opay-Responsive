@@ -1,7 +1,7 @@
 import { FaPhoneAlt } from "react-icons/fa";
 export default function Solution() {
   return (
-    <>
+    <div className="padd">
       <div className="hero">
         <img src="/images/hero.png" alt="hero" className="reel" />
 
@@ -93,6 +93,6 @@ export default function Solution() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
