@@ -63,7 +63,7 @@ export default function About() {
 
           <div className="puzzle-one">
             <div className="puzzle-image2">
-              <img src="/images/3stones.png" alt="tech" />
+              <img src="/images/tech.png" alt="tech" />
             </div>
             <div className="puzzle-image">
               <img src="/images/3stones.png" alt="tech" />

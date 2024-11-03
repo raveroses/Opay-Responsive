@@ -684,6 +684,11 @@ footer {
 }
 
 @media (max-width: 480px) {
+  .padding {
+    /* padding: 0px 10px; */
+    overflow: hidden;
+    max-width: 100%;
+  }
   .navs {
     display: none;
   }
@@ -750,7 +755,8 @@ footer {
     flex-direction: column;
   }
   .first {
-    padding: 0px 0px;
+    padding: 0px 0px 0px 0px;
+    max-width: 100%;
   }
   .first h2 {
     font-size: 33px;
@@ -813,12 +819,12 @@ footer {
   .grid .first h5 {
     font-size: 21px;
     margin-top: 5px;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 50px;
   }
   .grid .first p {
     font-size: 15px;
     margin: 8px 0px;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 50px;
   }
   .sponsor {
     padding: 32px 0px;
@@ -846,13 +852,17 @@ footer {
     justify-content: center;
     align-items: center;
     align-content: center;
+    max-width: 100%;
+    width: 100%;
   }
   .name {
     gap: 276px;
   }
   .box {
-    width: 400px;
-    margin-bottom: 15px;
+    width: 380px;
+    /* margin-bottom: 15px; */
+    padding: 10px 25px;
+    margin: 0px 15px 15px 15px;
   }
   .name h5 {
     font-size: 20px;
@@ -872,7 +882,10 @@ footer {
     width: 311px;
     padding: 22px;
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 10px;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
   }
   .content {
     font-size: 28px;
@@ -1042,7 +1055,8 @@ footer {
   }
 
   .oops {
-    margin-left: 60px;
+    margin: auto;
+    margin-bottom: 20px;
   }
   .reel {
     max-width: 100%;
@@ -1073,7 +1087,7 @@ footer {
     width: 200px;
   } */
   .gridy-img img {
-    width: 175px;
+    width: 170px;
   }
   .main-page {
     grid-template-columns: 1fr;
@@ -1105,13 +1119,17 @@ footer {
     width: 313px;
     padding: 19px;
     font-size: 20px;
-    margin-left: 30px;
+    margin: auto;
+    margin-left: 0px;
+    max-width: 100%;
+    margin-bottom: 20px;
   }
 
   .absolute-content {
     top: 30px;
-    padding: 10px 6px;
-    margin-left: 8px;
+    padding: 10px 0px;
+    /* margin-left: 8px; */
+    margin: auto;
   }
   .absolute-content h5 {
     font-size: 25px;
@@ -1122,6 +1140,7 @@ footer {
     gap: 0px;
     width: 100%;
     background: none;
+    max-width: 100%;
   }
 
   .white-content {
@@ -1134,6 +1153,7 @@ footer {
   .opay2-img {
     display: block;
     padding: 0px 30px;
+    max-width: 100%;
   }
   .opay2-img img {
     width: 386px;
@@ -1157,6 +1177,26 @@ footer {
     gap: 0px;
     flex-direction: column;
   }
+  .puzzle-content p {
+    font-size: 17px;
+    margin-bottom: 50px;
+    padding: 0px 30px;
+  }
+  .puzzle-content h5 {
+    font-size: 20px;
+    padding: 0px 30px;
+  }
+  .puzzle-image {
+    display: none;
+  }
+  .puzzle-image2 {
+    display: block;
+  }
+  .puzzle-image2 img {
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+  }
 
   .white-content .pp {
     margin-top: 0px;
@@ -1169,18 +1209,9 @@ footer {
     margin-top: 0px;
     font-size: 15px;
     line-height: 25px;
-    padding: 28px 35px;
+    padding: 28px 25px;
   }
-  .puzzle-image {
-    display: none;
-  }
-  .puzzle-image2 {
-    display: block;
-  }
-  .puzzle-image2 img {
-    width: 450px;
-    max-width: 100%;
-  }
+
   .company h5 {
     font-size: 25px;
     margin-top: 10px;
@@ -1189,8 +1220,9 @@ footer {
   .display {
     display: none;
   }
-  .puzzle-content p {
-    font-size: 18px;
-    margin-bottom: 50px;
+  .about-us-img img {
+    width: 100%;
+    background-color: #07c56e;
+    max-width: 100%;
   }
 }

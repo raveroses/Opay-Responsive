@@ -3,7 +3,7 @@ import { FaQuoteRight } from "react-icons/fa";
 
 export default function Body() {
   return (
-    <>
+    <div className="padding">
       <div className="body-flex">
         <div className="hand">
           <img src="/images/hands.png" alt="hands" />
@@ -136,6 +136,6 @@ export default function Body() {
           Contact Opay
         </div>
       </div>
-    </>
+    </div>
   );
 }
